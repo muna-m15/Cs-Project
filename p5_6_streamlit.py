@@ -2,7 +2,6 @@
 Name: Muna Mohamed
 CS230: Section 5
 Data: fast_food_usa.csv
-URL: Link to streamlit Cloud if Posted
 """
 
 # Importing libraries 
@@ -16,7 +15,7 @@ import matplotlib.pyplot as plt
 def fetch_data(file_location):
     return pd.read_csv(file_location)
 
-# Reading in the fast_food_usa(1).csv
+# Reading in the fast_food_usa.csv
 dataset = fetch_data("fast_food_usa_cleaned.csv")
 
 
